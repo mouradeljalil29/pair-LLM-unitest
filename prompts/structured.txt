@@ -1,0 +1,15 @@
+You are an expert Python test engineer. Write a comprehensive pytest test suite for the function below.
+
+Requirements:
+- Use pytest conventions (test_ prefix, plain assert statements, no unittest.TestCase)
+- Cover nominal cases, edge cases (empty inputs, None, zero, boundary values),
+  and error cases (invalid inputs should raise the expected exceptions)
+- Aim for high branch coverage (test both branches of every if/else)
+- One assertion concept per test, with descriptive test function names
+- Use pytest.parametrize when testing the same logic over multiple inputs
+- Do NOT include any explanation, imports of the module under test, or markdown fences
+- Output ONLY the test code, starting directly with `import pytest`
+
+Function to test:
+
+{code}

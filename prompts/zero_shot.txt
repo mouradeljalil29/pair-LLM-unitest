@@ -1,0 +1,3 @@
+Write unit tests in pytest for the following Python function:
+
+{code}
