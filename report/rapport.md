@@ -80,7 +80,7 @@ avec d'éventuels travaux futurs.
 | Modèle | Provider | Date d'évaluation |
 |---|---|---|
 | gpt-4o-mini | OpenAI | [à compléter] |
-| claude-haiku-4-5 | Anthropic | [à compléter] |
+| claude-haiku-4-5-20251001 | Anthropic | [à compléter] |
 
 Température fixée à **0.2** pour limiter la variance tout en conservant la diversité naturelle
 nécessaire à mesurer la robustesse.
@@ -137,8 +137,8 @@ Couverture moyenne par condition :
 |---|---|---|---|
 | gpt-4o-mini | zero-shot | ... | ... |
 | gpt-4o-mini | structured | ... | ... |
-| claude-haiku-4-5 | zero-shot | ... | ... |
-| claude-haiku-4-5 | structured | ... | ... |
+| claude-haiku-4-5-20251001 | zero-shot | ... | ... |
+| claude-haiku-4-5-20251001 | structured | ... | ... |
 
 ### 4.2 Effet du prompt (RQ2)
 

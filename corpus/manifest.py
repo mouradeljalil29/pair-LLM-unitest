@@ -38,20 +38,20 @@ CORPUS = [
     CorpusEntry("f08", "medium", "corpus/medium/f08_calculate_discount.py",
                 "corpus.medium.f08_calculate_discount", "calculate_discount", 8),
     CorpusEntry("f09", "medium", "corpus/medium/f09_flatten_nested_dict.py",
-                "corpus.medium.f09_flatten_nested_dict", "flatten_nested_dict", 2),
+                "corpus.medium.f09_flatten_nested_dict", "flatten_nested_dict", 5),
     CorpusEntry("f10", "medium", "corpus/medium/f10_roman_to_int.py",
                 "corpus.medium.f10_roman_to_int", "roman_to_int", 9),
     # --- Strate 3 : complexes ---
     CorpusEntry("f11", "complex", "corpus/complex/f11_bank_account.py",
-                "corpus.complex.f11_bank_account", "BankAccount", 4),
+                "corpus.complex.f11_bank_account", "BankAccount", 8),
     CorpusEntry("f12", "complex", "corpus/complex/f12_tokenize_expression.py",
                 "corpus.complex.f12_tokenize_expression", "tokenize_arithmetic_expression", 14),
     CorpusEntry("f13", "complex", "corpus/complex/f13_topological_sort.py",
-                "corpus.complex.f13_topological_sort", "topological_sort", 5),
+                "corpus.complex.f13_topological_sort", "topological_sort", 8),
     CorpusEntry("f14", "complex", "corpus/complex/f14_match_glob_pattern.py",
                 "corpus.complex.f14_match_glob_pattern", "match_glob_pattern", 12),
     CorpusEntry("f15", "complex", "corpus/complex/f15_rate_limiter.py",
-                "corpus.complex.f15_rate_limiter", "RateLimiter", 5),
+                "corpus.complex.f15_rate_limiter", "RateLimiter", 7),
 ]
 
 

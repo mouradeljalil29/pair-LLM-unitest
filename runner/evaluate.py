@@ -68,7 +68,7 @@ def main():
 
     generators = [
         OpenAIGenerator(model="gpt-4o-mini"),
-        AnthropicGenerator(model="claude-haiku-4-5"),
+        AnthropicGenerator(model="claude-haiku-4-5-20251001"),
     ]
     corpus = CORPUS[:2] if args.quick else CORPUS
 

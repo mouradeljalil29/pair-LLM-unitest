@@ -21,13 +21,13 @@ from .base import GenerationResult, LLMGenerator, clean_code_fences
 
 
 PRICING = {
-    "claude-haiku-4-5":  (1.00 / 1_000_000, 5.00 / 1_000_000),
-    "claude-sonnet-4-5": (3.00 / 1_000_000, 15.00 / 1_000_000),
+    "claude-haiku-4-5-20251001":  (1.00 / 1_000_000, 5.00 / 1_000_000),
+    "claude-sonnet-4-5-20251001": (3.00 / 1_000_000, 15.00 / 1_000_000),
 }
 
 
 class AnthropicGenerator(LLMGenerator):
-    def __init__(self, model: str = "claude-haiku-4-5", temperature: float = 0.2):
+    def __init__(self, model: str = "claude-haiku-4-5-20251001", temperature: float = 0.2):
         api_key = os.environ.get("ANTHROPIC_API_KEY")
         if not api_key:
             raise RuntimeError(
